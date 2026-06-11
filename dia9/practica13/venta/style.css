@@ -1,0 +1,29 @@
+ #venta {
+            border-collapse: collapse;
+            width: 100%;
+            font-family: sans-serif;
+            margin-top: 20px;
+        }
+        #venta th {
+            background-color: #495ee8;
+            color: white;
+            padding: 10px;
+            text-align: ;
+            border: 1px solid #f5f2f2;
+        }
+        #venta th[colspan="4"] {
+            text-align: center;
+            background-color: #0f056b;
+            font-size: 1.1em;
+        }
+        #venta td {
+            padding: 8px 10px;
+            border: 1px solid #f1f3ee;
+        }
+        #venta tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+        .resaltado{
+            text-align: center;
+            font-weight: bold;
+        }
